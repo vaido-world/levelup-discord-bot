@@ -16,4 +16,6 @@ a simple message `pong` should be given as a response.
 
 ## Notes
 Token can be found in https://discord.com/developers/applications/804719647601459250/bot
+This Token has to be added to **Settings** of **Config Vars** in **Heroku**
 ![Token can be found in ](./Note1.png)
+![Token can be found in ](./Note2.png)
