@@ -1,5 +1,9 @@
 # levelup-discord-bot
 https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f
+The bot is still incomplete and can't save progress.
+
+Therefore requires a database.
+https://stackoverflow.com/questions/48630490/best-way-to-save-data-using-node-js-with-heroku
 
 ## Invite:
 <a href="https://discord.com/oauth2/authorize?client_id=804719647601459250&scope=bot&permissions=0">client_id=804719647601459250</a>
