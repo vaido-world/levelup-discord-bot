@@ -14,6 +14,11 @@ Simply writing `ping` in a Discord Server Chat,
 a simple message `pong` should be given as a response.
 
 
+## Notices
+Remember, the original guide to creating and hosting a bot on Heroku had a mistake.
+`procfile` should be renamed to `Procfile`
+
+
 ## Notes
 Token can be found in https://discord.com/developers/applications/804719647601459250/bot  
 This Token has to be added to **Settings** of **Config Vars** in **Heroku**  
