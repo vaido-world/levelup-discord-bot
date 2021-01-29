@@ -10,5 +10,5 @@ https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564
 https://discord.com/developers/applications/804719647601459250/bot
 
 ## Usage
-Simply writing `ping` in a Discord Server Chat, 
+Simply writing `ping` in a Discord Server Chat,   
 a simple message `pong` should be given as a response.
