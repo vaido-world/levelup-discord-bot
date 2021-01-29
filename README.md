@@ -22,7 +22,8 @@ Remember, the original guide to creating and hosting a bot on Heroku had a mista
 
 
 ## Notes
-`The Variable’s key should be BOT_TOKEN and the value should be the Client Secret you copied earlier.`  
+`The Variable’s key should be BOT_TOKEN and the
+ value should be the Client Secret you copied earlier.`  
 Token can be found in https://discord.com/developers/applications/804719647601459250/bot  
 This Token has to be added to **Settings** of **Config Vars** in **Heroku**  
 ![Token can be found in ](./Note1.png)
