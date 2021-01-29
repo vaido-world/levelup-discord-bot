@@ -11,12 +11,12 @@ https://discord.com/developers/applications/804719647601459250/bot
 
 ## Usage
 Simply writing `ping` in a Discord Server Chat,   
-a simple message `pong` should be given as a response.
+a simple message `pong` should be given as a response.  
 
 
 ## Notices
-Remember, the original guide to creating and hosting a bot on Heroku had a mistake.
-`procfile` should be renamed to `Procfile`
+Remember, the original guide to creating and hosting a bot on Heroku had a mistake.  
+`procfile` should be renamed to `Procfile`  
 
 
 ## Notes
