@@ -12,3 +12,8 @@ https://discord.com/developers/applications/804719647601459250/bot
 ## Usage
 Simply writing `ping` in a Discord Server Chat,   
 a simple message `pong` should be given as a response.
+
+
+## Notes
+Token can be found in https://discord.com/developers/applications/804719647601459250/bot
+![Token can be found in ](./Note1.png)
