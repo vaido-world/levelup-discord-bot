@@ -8,8 +8,8 @@ The bot is still incomplete and can't save progress.
 Therefore requires a database.  
 https://stackoverflow.com/questions/48630490/best-way-to-save-data-using-node-js-with-heroku  
 
-A Discord bot that can manage roles: https://github.com/bpbuch/discord-role-bot
-A Discord bot that could count messages of a Discord Server memebers and save them in a Database.
+A Discord bot that can manage roles: https://github.com/bpbuch/discord-role-bot  
+A Discord bot that could count messages of a Discord Server memebers and save them in a Database.  
 
 ## Invite:
 <a href="https://discord.com/oauth2/authorize?client_id=804719647601459250&scope=bot&permissions=0">client_id=804719647601459250</a>
