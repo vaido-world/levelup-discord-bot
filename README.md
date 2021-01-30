@@ -53,3 +53,5 @@ Token can be found in https://discord.com/developers/applications/80471964760145
 This Token has to be added to **Settings** of **Config Vars** in **Heroku**  
 ![Token can be found in ](./Note1.png)
 ![Heroku Settings Tab](./Note2.png)
+
+Ideas: Mini-game: Find me among users.
