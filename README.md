@@ -9,9 +9,9 @@ The bot is still incomplete and can't save progress.
 Therefore requires a database.  
 https://stackoverflow.com/questions/48630490/best-way-to-save-data-using-node-js-with-heroku  
 
-Example, on using mlab database with Heroku: https://www.sitepoint.com/building-facebook-chat-bot-node-heroku/  
-**The mLab team has discontinued their MongoDB add-on.** **https://devcenter.heroku.com/articles/mongolab**
-Heroku mlab Discontinued: https://devcenter.heroku.com/changelog-items/1823  
+Example, on using mlab database with Heroku: https://www.sitepoint.com/building-facebook-chat-bot-node-heroku/   
+**The mLab team has discontinued their MongoDB add-on.** **https://devcenter.heroku.com/articles/mongolab**  
+Heroku mlab Discontinued: https://devcenter.heroku.com/changelog-items/1823   
 **If you’re considering remaining with mLab/Atlas, you should reference mLab’s documentation.** https://docs.mlab.com/shutdown-of-heroku-add-on/  
 
 ### Development 
