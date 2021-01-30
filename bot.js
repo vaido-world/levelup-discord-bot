@@ -33,7 +33,9 @@ client.on('message', message => {
        //message.member.setNickname(message.content.replace('changeNick ', ''));
          //var nick = message.content.split(" ").slice(1).join(" ");
          //message.member.setNickname(nick);
-          message.member.setNickname('Welcome');
+         // message.member.setNickname('Welcome');
+     
+     message.author.setNickname('Welcome');
          //message.guild.members.get(message.author.id).setNickname("asd");
          //message.channel.send('Tried to change username..');
          //message.guild.me.setNickname('Level Up!'); //https://stackoverflow.com/questions/55698613/changing-nickname-of-bot-with-a-command
