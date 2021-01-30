@@ -14,6 +14,9 @@ Example, on using mlab database with Heroku: https://www.sitepoint.com/building-
 Heroku mlab Discontinued: https://devcenter.heroku.com/changelog-items/1823  
 **If you’re considering remaining with mLab/Atlas, you should reference mLab’s documentation.** https://docs.mlab.com/shutdown-of-heroku-add-on/  
 
+### Development 
+[MongoDB Atlas heroku discord.js bot](https://www.google.com/search?ei=L20VYN37IseurgSC566wBw&q=MongoDB+Atlas+heroku+discord.js+bot&oq=MongoDB+Atlas+heroku+discord.js+bot&gs_lcp=CgZwc3ktYWIQAzoFCCEQoAE6BwghEAoQoAFQ50BYvGtg02xoCHAAeACAAXiIAcIIkgEDNS42mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwidz6yK78PuAhVHl4sKHYKzC3YQ4dUDCA0&uact=5)
+
 A Discord bot that can manage roles: https://github.com/bpbuch/discord-role-bot  
 A Discord bot that could count messages of a Discord Server memebers and save them in a Database.  
 
