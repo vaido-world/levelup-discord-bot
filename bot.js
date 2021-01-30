@@ -26,7 +26,9 @@ client.on('message', message => {
     // https://stackoverflow.com/questions/41247353/change-user-nickname-with-discord-js
     if (message.content.includes('changeNick')) {
        return message.channel.send('Tried to change username..');
-       if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) return message.channel.send('I don\'t have permission to change your nickname!');
+       if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) {
+        return message.channel.send('I don\'t have permission to change your nickname!');
+       } else { return message.channel.send('I do have permission to change your nickname! Nice.');}
        // Crashes/shutdowns the bot.
        //message.member.setNickname(message.content.replace('changeNick ', ''));
          //var nick = message.content.split(" ").slice(1).join(" ");
