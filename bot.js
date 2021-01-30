@@ -17,6 +17,9 @@ client.on('message', message => {
     if (message.content === 'ping') {
        //message.reply('You have reached a new level! pong');
        message.channel.send('You have reached a new level! pong');
+       // Advanced Reply: https://stackoverflow.com/a/65119989/3789797
+       // Not available in Discord.js version 12
+       // Discord version 13 is still not released.  (https://github.com/discordjs/discord.js/releases)
 
        }
 
