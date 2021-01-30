@@ -18,6 +18,8 @@ Heroku mlab Discontinued: https://devcenter.heroku.com/changelog-items/1823
 [MongoDB Atlas heroku discord.js bot](https://www.google.com/search?ei=L20VYN37IseurgSC566wBw&q=MongoDB+Atlas+heroku+discord.js+bot&oq=MongoDB+Atlas+heroku+discord.js+bot&gs_lcp=CgZwc3ktYWIQAzoFCCEQoAE6BwghEAoQoAFQ50BYvGtg02xoCHAAeACAAXiIAcIIkgEDNS42mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwidz6yK78PuAhVHl4sKHYKzC3YQ4dUDCA0&uact=5)\
 
 ## Using MongoDB https://towardsdatascience.com/creating-a-discord-bot-from-scratch-and-connecting-to-mongodb-828ad1c7c22e
+## Heroku uses PostgreSQL for free tier.You should use Mongodb add-on https://stackoverflow.com/questions/62855226/mongodb-not-initializing-when-app-is-hosted-on-heroku/62855256#62855256
+
 
 A Discord bot that can manage roles: https://github.com/bpbuch/discord-role-bot  
 A Discord bot that could count messages of a Discord Server memebers and save them in a Database.  
