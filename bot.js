@@ -46,6 +46,10 @@ client.on('message', message => {
      //message.author.setNickname('Welcome'); //Completely no response
          //message.guild.members.get(message.author.id).setNickname("asd"); //Completely no response
          //message.channel.send('Tried to change username..');
+     
+     
+     // Maybe the nicknames are not chaning for the owners of the server. https://stackoverflow.com/a/51112079
+     
          //message.guild.me.setNickname('Level Up!'); //https://stackoverflow.com/questions/55698613/changing-nickname-of-bot-with-a-command
     }
    
