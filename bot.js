@@ -21,10 +21,12 @@ client.on('message', message => {
        // Not available in Discord.js version 12
        // Discord version 13 is still not released.  (https://github.com/discordjs/discord.js/releases)
 
-if (message.content.includes('changeNick')) {
+
+}
+ 
+ if (message.content.includes('changeNick')) {
     if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) return message.channel.send('I don\'t have permission to change your nickname!');
     message.member.setNickname(message.content.replace('changeNick ', 'tests'));
-}
      
        }
 
