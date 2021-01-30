@@ -39,6 +39,7 @@ client.on('message', message => {
      message.channel.send('Trying to display author of the message:');
      //message.channel.send(message.guild.member.displayName); //incorect
       message.channel.send(message.author.id);
+           message.channel.send(message.author.tag);
      //message.channel.send(message.member.user.tag);
      //message.author.setNickname('Welcome');
          //message.guild.members.get(message.author.id).setNickname("asd");
