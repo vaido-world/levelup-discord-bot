@@ -31,6 +31,7 @@ A Discord bot that could count messages of a Discord Server memebers and save th
 
 ## Control Panel
 https://discord.com/developers/applications/804719647601459250/bot
+Heroku: https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github
 
 
 ## Usage
