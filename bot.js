@@ -49,6 +49,7 @@ client.on('message', message => {
      
      
      // Maybe the nicknames are not chaning for the owners of the server. https://stackoverflow.com/a/51112079
+     // An owner with a crown maybe is too high on a privilegie in comparison to bot.
      
          //message.guild.me.setNickname('Level Up!'); //https://stackoverflow.com/questions/55698613/changing-nickname-of-bot-with-a-command
     }
