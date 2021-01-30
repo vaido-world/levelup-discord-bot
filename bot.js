@@ -15,8 +15,8 @@ client.on('ready', () => {
 client.on('message', message => {
 
     if (message.content === 'ping') {
-
-       message.channel.send('pong');
+       message.reply('You have reached a new level! pong');
+       message.channel.send('You have reached a new level! pong');
 
        }
 
