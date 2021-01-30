@@ -16,7 +16,7 @@ client.on('message', message => {
 
     if (message.content === 'ping') {
 
-       message.content('pong');
+       message.channel.send('pong');
 
        }
 
