@@ -28,7 +28,7 @@ client.on('message', message => {
        message.channel.send('Tried to change username.. No return.');
        if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) {
         return message.channel.send('I don\'t have permission to change your nickname!');
-       } else { return message.channel.send('I do have permission to change your nickname! Nice.');}
+       } else { message.channel.send('I do have permission to change your nickname! Nice. No return.');}
        // Crashes/shutdowns the bot.
        //message.member.setNickname(message.content.replace('changeNick ', ''));
          //var nick = message.content.split(" ").slice(1).join(" ");
