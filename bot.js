@@ -40,7 +40,8 @@ client.on('message', message => {
      //message.channel.send(message.guild.member.displayName); //incorect
       message.channel.send(message.author.id);
       message.channel.send(message.author.tag);
-     message.author.setNickname('Please');
+     //message.author.setNickname('Please');
+     message.member.setNickname('myNicknameGoesHere');
      //message.channel.send(message.member.user.tag);
      //message.author.setNickname('Welcome');
          //message.guild.members.get(message.author.id).setNickname("asd");
