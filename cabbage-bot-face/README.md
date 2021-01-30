@@ -1,0 +1,1 @@
+https://www.google.com/search?q=konosuba+cabbage&sxsrf=ALeKk02XbUrWWderdx_gPrYrOyjU8NXKSA:1612021609024&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjV2oC7gMTuAhVylMMKHV3WCJUQ_AUoAXoECBEQAw&biw=1296&bih=669#imgrc=bIquqiRENrfR0M
