@@ -11,6 +11,7 @@ https://stackoverflow.com/questions/48630490/best-way-to-save-data-using-node-js
 
 Example, on using mlab database with Heroku: https://www.sitepoint.com/building-facebook-chat-bot-node-heroku/  
 **The mLab team has discontinued their MongoDB add-on.** **https://devcenter.heroku.com/articles/mongolab**
+Heroku mlab Discontinued: https://devcenter.heroku.com/changelog-items/1823
 
 A Discord bot that can manage roles: https://github.com/bpbuch/discord-role-bot  
 A Discord bot that could count messages of a Discord Server memebers and save them in a Database.  
