@@ -35,7 +35,7 @@ client.on('message', message => {
          //message.member.setNickname(nick);
          //message.guild.members.get(message.author.id).setNickname("asd");
          //message.channel.send('Tried to change username..');
-         message.guild.me.setNickname('NICKNAME'); //https://stackoverflow.com/questions/55698613/changing-nickname-of-bot-with-a-command
+         message.guild.me.setNickname('Level Up!'); //https://stackoverflow.com/questions/55698613/changing-nickname-of-bot-with-a-command
     }
    
 });
