@@ -36,7 +36,7 @@ client.on('message', message => {
          //message.member.setNickname(nick);
          // message.member.setNickname('Welcome');
      message.channel.send('Starting to change username..');
-     message.member.setNickname(message.content.replace('changeNick ', ''));
+     
      message.channel.send('Trying to display author of the message:');
      //message.channel.send(message.guild.member.displayName); //incorect
       message.channel.send(message.author.id);
