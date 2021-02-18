@@ -3,9 +3,10 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
  
-client.on('ready', client => {
-        client.channels.get('644101176568053760').send('Hello here!');
-    })
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
 
  
 
