@@ -5,7 +5,12 @@ const client = new Discord.Client();
  
 
 client.on('ready', () => {
-
+    client.channels.fetch('644101176568053760')
+    .then(channel => {
+        channel.send("Hello here!");
+    })
+ 
+ 
     console.log('I am ready!');
 
 });
