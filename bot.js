@@ -8,8 +8,7 @@ const client = new Discord.Client();
 });
 
 client.on('ready', () => {
-    client.channels.fetch('812061099653988413')
-    .then(channel => {
+    client.channels.fetch('812061099653988413').then(channel => {
         channel.send("Hello here!");
     })
 });
