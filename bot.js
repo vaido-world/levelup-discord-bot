@@ -7,7 +7,10 @@ const client = new Discord.Client();
     console.log('I am ready!');
 });
 
- 
+  client.on('ready', () => {
+      console.log('Bot is now connected')
+        client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
+    });
 
 client.on('message', message => {
 
