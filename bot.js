@@ -10,10 +10,15 @@ const client = new Discord.Client();
  client.on('ready', () => {
     console.log(`Hi, ${client.user.username} is now online!`);
   client.user.setPresence("I am Devil") 
-  client.user.setActivity('U', { type: 'WATCHING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
+
+});
+
+module.exports = (client, message) => {
+   client.user.setActivity('U', { type: 'WATCHING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
         .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
         .catch(console.error);
-});
+ 
+ };
 
 
 
