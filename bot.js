@@ -5,6 +5,7 @@ const client = new Discord.Client();
  // https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
  client.on('ready', () => {
     console.log('I am ready!');
+    console.log(`Hi, ${client.user.username} is now online!`);
   client.user.setPresence("I am Devil") 
 });
 
