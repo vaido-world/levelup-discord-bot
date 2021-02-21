@@ -38,6 +38,9 @@ Heroku: https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github
 Simply writing `ping` in a Discord Server Chat,   
 a simple message `pong` should be given as a response.  
 
+## Debugging 
+![Client Id can ba found here](./Note4.png)
+
 
 ## Notices
 Remember, the original guide to creating and hosting a bot on Heroku had a mistake.  
