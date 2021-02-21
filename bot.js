@@ -10,6 +10,9 @@ const client = new Discord.Client();
  client.on('ready', () => {
     console.log(`Hi, ${client.user.username} is now online!`);
   client.user.setPresence("I am Devil") 
+  
+console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client.channels.size}` + ' channels of ' + `${client.guilds.size}` + ' guilds.');
+    client.user.setStatus('online')
 
  client.user.setPresence({
         game: {
