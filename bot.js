@@ -7,7 +7,6 @@ const client = new Discord.Client();
     console.log('I am ready!');
 });
 
-client.user.setActivity(`I am Devil`); //Sets bot activity as "I am Devil" 
 
 
 client.on('message', message => {
