@@ -11,6 +11,14 @@ const client = new Discord.Client();
     console.log(`Hi, ${client.user.username} is now online!`);
   client.user.setPresence("I am Devil") 
 
+client.user.setPresence({
+        status: 'online',
+        activity: {
+            name: ".help",
+            type: "PLAYING"
+        }
+    });
+  
 });
 
 module.exports = (client, message) => {
