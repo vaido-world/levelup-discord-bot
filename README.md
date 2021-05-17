@@ -12,8 +12,8 @@ https://stackoverflow.com/questions/48630490/best-way-to-save-data-using-node-js
 
 
 ## mlab is discontinued since 2020
-[mlab was used as a free database hosting to get 500mb of database space for Heroku Applications](https://docs.mlab.com/shutdown-of-heroku-add-on/#what-action-is-required-how-can-i-keep-my-application-running)  
-mlab discontinued the Heroku Addon, however Heroku now suggests to move forward to mongodb which offers [512MB to 5GB of storage forever free](https://www.mongodb.com/pricing)
+mlab was used as a free database hosting to get 500mb of database space for Heroku Applications
+mlab discontinued the Heroku Addon, however [Heroku now suggests to move forward to mongodb](https://docs.mlab.com/shutdown-of-heroku-add-on/#what-action-is-required-how-can-i-keep-my-application-running) which offers [512MB to 5GB of storage forever free](https://www.mongodb.com/pricing)
 
 Example, on using mlab database with Heroku: https://www.sitepoint.com/building-facebook-chat-bot-node-heroku/   
 **The mLab team has discontinued their MongoDB add-on.** **https://devcenter.heroku.com/articles/mongolab**  
