@@ -26,6 +26,7 @@ const client = new Discord.Client();
 console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client.channels.size}` + ' channels of ' + `${client.guilds.size}` + ' guilds.');
     client.user.setStatus('online')
   
+// -----------------------------Activity-----------------------------
 //https://support.glitch.com/t/client-user-setactivity-doesnt-work/8625/5
  client.user.setPresence({
         game: {
@@ -44,7 +45,7 @@ module.exports = (client, message) => {
  
  };
 
-
+// -----------------------------ActivityEND-----------------------------
 
 client.on('message', message => {
 
