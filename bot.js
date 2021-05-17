@@ -6,8 +6,15 @@ const client = new Discord.Client();
  client.on('ready', () => {
     console.log('I am ready!');
 //client.channels.cache.get('812061099653988413').send('yourmessage'); //V12 Discord.js
-  user.guild.channels.cache.get("812061099653988413").send("SomeText")
+ // user.guild.channels.cache.get("812061099653988413").send("SomeText")
 });
+
+
+    client.on('ready', () => {
+      console.log('Bot is now connected')
+        client.channels.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v11
+        client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
+    });
 
  client.on('ready', () => {
     console.log(`Hi, ${client.user.username} is now online!`);
