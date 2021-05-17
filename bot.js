@@ -1,3 +1,5 @@
+// Future: Use this example to improve the bot: https://gist.github.com/cherryblossom000/7182a66c577bb5858f4ef88ae713434f
+
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
