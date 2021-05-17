@@ -13,7 +13,7 @@ const client = new Discord.Client();
     client.on('ready', () => {
       console.log('Bot is now connected')
         client.channels.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v11
-        client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
+        //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
     });
 
  client.on('ready', () => {
