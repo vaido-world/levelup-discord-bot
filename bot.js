@@ -16,7 +16,7 @@ const client = new Discord.Client();
     client.on('ready', () => {
       console.log('Bot is now connected')
         client.channels.find(channel => channel.name === 'bot').send("Hello there!"); // for discord v11 
-        client.channels.find(channel => channel.name === 'bot').send("To edit this bot: https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js"); // for discord v11 
+        client.channels.find(channel => channel.name === 'bot').send("To edit this bot: <https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js>"); // for discord v11 
         client.channels.find(channel => channel.name === 'bot').send("Readme for this bot: https://github.com/vaido-world/levelup-discord-bot"); // for discord v11 
         client.channels.find(channel => channel.name === 'bot').send("The bot is hosted on Heroku"); // for discord v11 
      //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
