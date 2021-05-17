@@ -5,7 +5,7 @@ const client = new Discord.Client();
  // https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
  client.on('ready', () => {
     console.log('I am ready!');
-  const channel = await client.channels.fetch('812061099653988413');
+  const channel = client.channels.fetch('812061099653988413');
 
   channel.send('message');
 });
