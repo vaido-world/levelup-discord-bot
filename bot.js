@@ -6,6 +6,7 @@ const client = new Discord.Client();
  client.on('ready', () => {
     console.log('I am ready!');
 //client.channels.cache.get('812061099653988413').send('yourmessage'); //V12 Discord.js
+  user.guild.channels.cache.get("812061099653988413").send("SomeText")
 });
 
  client.on('ready', () => {
