@@ -9,7 +9,7 @@ const client = new Discord.Client();
  // user.guild.channels.cache.get("812061099653988413").send("SomeText")
 });
 
-
+    //https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
     client.on('ready', () => {
       console.log('Bot is now connected')
         client.channels.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v11 //Had to give role to the channel for the bot to write to it?
