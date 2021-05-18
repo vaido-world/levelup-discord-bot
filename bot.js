@@ -31,7 +31,7 @@ const client = new Discord.Client();
        color: 3447003,
        description: "A very simple Embed!"
      }});
-      //____________________________Embed Example_______________________________________
+      //____________________________Embed Example_______________________________________ 
      
     });
     // ___________________________________Sending a message to a specific channel___________________________________
