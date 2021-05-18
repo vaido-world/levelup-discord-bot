@@ -39,10 +39,6 @@ const client = new Discord.Client();
     
     REMOVED */
 
-
-    client.on('ready', () => {
-      console.log('Bot is now connected')
-     
 const embed = new Discord.MessageEmbed()
   .setTitle("This is your title, it can hold 256 characters")
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
@@ -70,6 +66,11 @@ const embed = new Discord.MessageEmbed()
    */
   .addFields({ name: '\u200b', value: '\u200b' })
   .addFields({ name: "Inline Field 3", value: "You can have a maximum of 25 fields.", inline: true});
+
+
+    client.on('ready', () => {
+      console.log('Bot is now connected')
+     
 
 
      client.channels.find(channel => channel.name === 'bot').send(embed); // for discord v11 
