@@ -74,7 +74,7 @@ const client = new Discord.Client();
             value: "[🧵 MongoDB database](https://www.mongodb.com)"
          })
         .addFields({
-            name: "Masked links",
+            name: "Bot Discord Settings",
             value: "[📓 Discord Settings for this Bot](https://discord.com/developers/applications/804719647601459250/bot)"
          })
       
