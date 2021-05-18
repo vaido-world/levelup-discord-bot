@@ -11,6 +11,7 @@ const client = new Discord.Client();
  // user.guild.channels.cache.get("812061099653988413").send("SomeText")
 });
 
+ /* REMOVED   
     // ___________________________________Sending a message to a specific channel___________________________________
     //https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
     client.on('ready', () => {
@@ -34,7 +35,15 @@ const client = new Discord.Client();
       //____________________________Embed Example_______________________________________ 
      
     });
-    // ___________________________________Sending a message to a specific channel___________________________________
+    // ___________________________________Sending a message to a specific channel___________________________________ 
+    
+    REMOVED */
+
+
+    client.on('ready', () => {
+      console.log('Bot is now connected')
+     client.channels.find(channel => channel.name === 'bot').send("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database"); // for discord v11 
+});
 
  client.on('ready', () => {
     console.log(`Hi, ${client.user.username} is now online!`);
