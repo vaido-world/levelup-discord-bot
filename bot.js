@@ -52,7 +52,7 @@ const client = new Discord.Client();
          * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
          */
         .setColor(0x00AE86)
-        .setDescription("This is the main body of text, it can hold 2048 characters.")
+        .setDescription("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database.")
         .setFooter("This is the footer text, it can hold 2048 characters", "http://i.imgur.com/w1vhFSR.png")
         .setImage("http://i.imgur.com/yVpymuV.png")
         .setThumbnail("http://i.imgur.com/p2qNFag.png")
@@ -64,6 +64,14 @@ const client = new Discord.Client();
         .addFields({
             name: "GitHub Readme",
             value: "[📚 Readme for this bot](https://github.com/vaido-world/levelup-discord-bot)"
+         })
+        .addFields({
+            name: "Masked links",
+            value: "You can put [masked links](http://google.com) inside of rich embeds."
+         })
+        .addFields({
+            name: "Masked links",
+            value: "You can put [masked links](http://google.com) inside of rich embeds."
          })
         .addFields({
             name: "Masked links",
