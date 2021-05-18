@@ -47,7 +47,7 @@ const client = new Discord.Client();
      
       const embed = new Discord.MessageEmbed()
         .setAuthor("Level Up! | Discord Bot V12")
-        .setTitle("This is your title, it can hold 256 characters")
+        .setTitle("Information about bot")
         /*
          * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
          */
