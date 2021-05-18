@@ -16,7 +16,7 @@ const client = new Discord.Client();
     client.on('ready', () => {
       console.log('Bot is now connected')
         client.channels.find(channel => channel.name === 'bot').send("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database"); // for discord v11 
-        client.channels.find(channel => channel.name === 'bot').send("┠To edit this bot: <https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js> \
+        client.channels.find(channel => channel.name === 'bot').send("To edit this bot: <https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js> \
         \n> 📚 Readme for this bot: <https://github.com/vaido-world/levelup-discord-bot> \
         \n> 🗄 Heroku, Control Panel: <https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github> \
         \n> 🧵 MongoDB database: <https://www.mongodb.com/> \
