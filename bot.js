@@ -77,7 +77,11 @@ const client = new Discord.Client();
             name: "Bot Discord Settings",
             value: "[📓 Discord Settings for this Bot](https://discord.com/developers/applications/804719647601459250/bot)"
          })
-      
+        .addFields({
+            name: "Bot Debugging logs",
+            value: "[Debugging logs for this Bot:](https://dashboard.heroku.com/apps/levelup-discord-bot/logs )"
+         })
+       
       
         .addFields({ name: "This is a field title, it can hold 256 characters",
             value: "This is a field value, it can hold 1024 characters."})
