@@ -11,7 +11,7 @@ const client = new Discord.Client();
  // user.guild.channels.cache.get("812061099653988413").send("SomeText")
 });
 
-    //test2
+    // ___________________________________Sending a message to a specific channel___________________________________
     //https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
     client.on('ready', () => {
       console.log('Bot is now connected')
@@ -24,6 +24,7 @@ const client = new Discord.Client();
         client.channels.find(channel => channel.name === 'bot').send("Debugging logs for this Bot: <https://dashboard.heroku.com/apps/levelup-discord-bot/logs> \n[Some more Diagnostics, like server/client latency here?]"); // for discord v11 
      //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
     });
+    // ___________________________________Sending a message to a specific channel___________________________________
 
  client.on('ready', () => {
     console.log(`Hi, ${client.user.username} is now online!`);
