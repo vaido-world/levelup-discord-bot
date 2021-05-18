@@ -88,7 +88,7 @@ const client = new Discord.Client();
         /*
          * Inline fields may not display as inline if the thumbnail and/or image is too big.
          */
-        .addFields({ name: "Inline Field", value: "They can also be inline.", inline: true })
+        .addFields({ name: "CC0 Public License", value: "You are free to use for any kind of purpose.", inline: true })
         /*
          * Blank field, useful to create some space.
          */
