@@ -83,8 +83,8 @@ const client = new Discord.Client();
          })
        
       
-        .addFields({ name: "This is a field title, it can hold 256 characters",
-            value: "This is a field value, it can hold 1024 characters."})
+        .addFields({ name: "Description",
+            value: "A standard Discord bot with simplicity in mind."})
         /*
          * Inline fields may not display as inline if the thumbnail and/or image is too big.
          */
