@@ -18,8 +18,8 @@ const client = new Discord.Client();
         client.channels.find(channel => channel.name === 'bot').send("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database"); // for discord v11 
         client.channels.find(channel => channel.name === 'bot').send("To edit this bot: <https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js> \
         \n> 📚 Readme for this bot⇨ <https://github.com/vaido-world/levelup-discord-bot> \
-        \n> 🗄 Heroku, Control Panel⇨ \n> <https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github> \
-        \n> 🧵 MongoDB database⇨ \n> <https://www.mongodb.com/> \
+        \n> 🗄 Heroku, Control Panel \n> ⇨<https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github> \
+        \n> 🧵 MongoDB database \n> ⇨<https://www.mongodb.com/> \
         \n> 📓 Discord Settings for this Bot⇨ <https://discord.com/developers/applications/804719647601459250/bot>"); 
         client.channels.find(channel => channel.name === 'bot').send("Debugging logs for this Bot: <https://dashboard.heroku.com/apps/levelup-discord-bot/logs> \n[Some more Diagnostics, like server/client latency here?]"); // for discord v11 
      //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
