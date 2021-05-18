@@ -24,6 +24,9 @@ const client = new Discord.Client();
         client.channels.find(channel => channel.name === 'bot').send("Debugging logs for this Bot: <https://dashboard.heroku.com/apps/levelup-discord-bot/logs> \n[Some more Diagnostics, like server/client latency here?]"); // for discord v11 
      //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
 }});     
+
+// Formatted embeds in Discord
+// https://anidiots.guide/first-bot/using-embeds-in-messages
      client.channels.find(channel => channel.name === 'bot').send({embed: {
   color: 3447003,
   description: "A very simple Embed!"
