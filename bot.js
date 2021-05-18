@@ -26,11 +26,11 @@ const client = new Discord.Client();
      
 // -----------------------Formatted embeds in Discord
 // https://anidiots.guide/first-bot/using-embeds-in-messages
-     client.channels.find(channel => channel.name === 'bot').send({embed: {
-  color: 3447003,
-  description: "A very simple Embed!"
-
-    }); 
+//     client.channels.find(channel => channel.name === 'bot').send({embed: {
+//  color: 3447003,
+//  description: "A very simple Embed!"
+//
+//    }); 
 // -----------------------Formatted embeds in Discord                                                          
      
 }});     
