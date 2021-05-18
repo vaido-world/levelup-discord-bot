@@ -66,16 +66,16 @@ const client = new Discord.Client();
             value: "[📚 Readme for this bot](https://github.com/vaido-world/levelup-discord-bot)"
          })
         .addFields({
-            name: "Masked links",
-            value: "You can put [masked links](http://google.com) inside of rich embeds."
+            name: "Heroku, Control Panel",
+            value: "[🗄 Heroku, Control Panel](https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github)"
+         })
+        .addFields({
+            name: "MongoDB database",
+            value: "[🧵 MongoDB database](https://www.mongodb.com)"
          })
         .addFields({
             name: "Masked links",
-            value: "You can put [masked links](http://google.com) inside of rich embeds."
-         })
-        .addFields({
-            name: "Masked links",
-            value: "You can put [masked links](http://google.com) inside of rich embeds."
+            value: "[📓 Discord Settings for this Bot](https://discord.com/developers/applications/804719647601459250/bot)"
          })
       
       
