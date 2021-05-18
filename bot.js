@@ -61,6 +61,10 @@ const client = new Discord.Client();
          */
         .setTimestamp()
         .setURL("https://discord.js.org/#/docs/main/v12/class/MessageEmbed")
+        .addFields({
+            name: "Masked links",
+            value: "You can put [masked links](http://google.com) inside of rich embeds."
+         })
         .addFields({ name: "This is a field title, it can hold 256 characters",
             value: "This is a field value, it can hold 1024 characters."})
         /*
