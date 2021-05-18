@@ -12,18 +12,18 @@ const client = new Discord.Client();
 });
 
     //test2
-//    //https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
-//    client.on('ready', () => {
-//      console.log('Bot is now connected')
-//        client.channels.find(channel => channel.name === 'bot').send("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database"); // for discord v11 
-//        client.channels.find(channel => channel.name === 'bot').send("┠To edit this bot: <https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js> \
-//        \n> 📚 Readme for this bot: <https://github.com/vaido-world/levelup-discord-bot> \
-//        \n> 🗄 Heroku, Control Panel: <https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github> \
-//        \n> 🧵 MongoDB database: <https://www.mongodb.com/> \
-//        \n> 📓 Discord Settings for this Bot: <https://discord.com/developers/applications/804719647601459250/bot>"); 
-//        client.channels.find(channel => channel.name === 'bot').send("Debugging logs for this Bot: <https://dashboard.heroku.com/apps/levelup-discord-bot/logs> \n[Some more Diagnostics, like server/client latency here?]"); // for discord v11 
-//     //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
-//    });
+    //https://stackoverflow.com/questions/60665866/discord-js-send-message-to-a-specific-channel-using-a-bot/60666036#60666036
+    client.on('ready', () => {
+      console.log('Bot is now connected')
+        client.channels.find(channel => channel.name === 'bot').send("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database"); // for discord v11 
+        client.channels.find(channel => channel.name === 'bot').send("┠To edit this bot: <https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js> \
+        \n> 📚 Readme for this bot: <https://github.com/vaido-world/levelup-discord-bot> \
+        \n> 🗄 Heroku, Control Panel: <https://dashboard.heroku.com/apps/levelup-discord-bot/deploy/github> \
+        \n> 🧵 MongoDB database: <https://www.mongodb.com/> \
+        \n> 📓 Discord Settings for this Bot: <https://discord.com/developers/applications/804719647601459250/bot>"); 
+        client.channels.find(channel => channel.name === 'bot').send("Debugging logs for this Bot: <https://dashboard.heroku.com/apps/levelup-discord-bot/logs> \n[Some more Diagnostics, like server/client latency here?]"); // for discord v11 
+     //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
+    });
 
  client.on('ready', () => {
     console.log(`Hi, ${client.user.username} is now online!`);
@@ -52,24 +52,24 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
 /////////  };
 ///////// 
 // -----------------------------ActivityEND-----------------------------
- client.user.setPresence({
-        game: {
-            name: 'Use f!help',
-            type: "LISTENING",
-            url: "https://discordapp.com/"
-        }
-    });
-  
-});
-
-module.exports = (client, message) => {
-   client.user.setActivity('U', { type: 'LISTENING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
-        .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
-        .catch(console.error);
- 
- };
-
-  
+ // client.user.setPresence({
+ //        game: {
+ //            name: 'Use f!help',
+ //            type: "LISTENING",
+ //            url: "https://discordapp.com/"
+ //        }
+ //    });
+ //  
+ //});
+ //
+ //module.exports = (client, message) => {
+ //   client.user.setActivity('U', { type: 'LISTENING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
+ //        .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
+ //        .catch(console.error);
+ // 
+ // };
+ //
+ //  
 // -----------------------------ActivityNew-----------------------------
   
   
