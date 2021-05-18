@@ -55,7 +55,7 @@ const client = new Discord.Client();
         .setDescription("Hello there! ⚐ The bot is hosted on Heroku and will use MongoDB database.")
         .setFooter("This is the footer text, it can hold 2048 characters", "http://i.imgur.com/w1vhFSR.png")
         .setImage("http://i.imgur.com/yVpymuV.png")
-        .setThumbnail("http://i.imgur.com/p2qNFag.png")
+        .setThumbnail("https://icons.iconarchive.com/icons/zhoolego/material/512/Control-Panel-icon.png")
         /*
          * Takes a Date object, defaults to current date.
          */
