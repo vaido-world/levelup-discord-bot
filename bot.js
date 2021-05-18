@@ -79,7 +79,7 @@ const client = new Discord.Client();
          })
         .addFields({
             name: "Bot Debugging logs",
-            value: "[Debugging logs for this Bot:](https://dashboard.heroku.com/apps/levelup-discord-bot/logs )"
+            value: "[Debugging logs for this Bot](https://dashboard.heroku.com/apps/levelup-discord-bot/logs )"
          })
        
       
