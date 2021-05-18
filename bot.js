@@ -24,11 +24,15 @@ const client = new Discord.Client();
         client.channels.find(channel => channel.name === 'bot').send("Debugging logs for this Bot: <https://dashboard.heroku.com/apps/levelup-discord-bot/logs> \n[Some more Diagnostics, like server/client latency here?]"); // for discord v11 
      //client.channels.cache.find(channel => channel.name === 'bot1').send("Hello there!"); // for discord v12
      
-     
+     //____________________________Embed Example_______________________________________
+     // https://anidiots.guide/first-bot/using-embeds-in-messages
+     // https://discordjs.guide/popular-topics/embeds.html#embed-preview
      client.channels.find(channel => channel.name === 'bot').send({embed: {
-  color: 3447003,
-  description: "A very simple Embed!"
-}});
+       color: 3447003,
+       description: "A very simple Embed!"
+     }});
+      //____________________________Embed Example_______________________________________
+     
     });
     // ___________________________________Sending a message to a specific channel___________________________________
 
