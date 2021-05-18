@@ -54,7 +54,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
 // -----------------------------ActivityEND-----------------------------
  client.user.setPresence({
         game: {
-            name: 'Use f!help',
+            name: 'Use f!help https://discordapp.com/',
             type: "CUSTOM_STATUS",
             url: "https://discordapp.com/"
         }
