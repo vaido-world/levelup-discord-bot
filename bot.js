@@ -141,7 +141,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
         }
     });
   
-});
+
 
 module.exports = (client, message) => {
    client.user.setActivity('U', { type: 'PLAYING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
@@ -149,9 +149,8 @@ module.exports = (client, message) => {
         .catch(console.error);
  
  };
-
   
-// -----------------------------ActivityNew-----------------------------
+}); // -----------------------------ActivityNew-----------------------------
   
   
   
