@@ -89,9 +89,15 @@ const client = new Discord.Client();
          * Inline fields may not display as inline if the thumbnail and/or image is too big.
          */
         .addFields({ name: "CC0 Public Domain License", value: "You are free to use for any kind of purpose.", inline: true })
+        .addFields({
+            name: "Edit or customize this Bot",
+            value: "[Change or edit this bot.js](https://discord.com/developers/applications/804719647601459250/bot)"
+         })
+      
         /*
          * Blank field, useful to create some space.
          */
+      
         .addFields({ name: '\u200b', value: '\u200b' })
         .addFields({ name: "Inline Field 3", value: "You can have a maximum of 25 fields.", inline: true});
       
