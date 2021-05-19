@@ -122,7 +122,7 @@ client.on("ready", () => {
             name: 'my code',
             type: 'WATCHING'
         },
-        status: 'idle'
+        status: 'online'
     })
  
      console.log(`Hi, ${client.user.username} trying to set Bot Presence and Bot Status!`);
