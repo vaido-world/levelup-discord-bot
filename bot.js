@@ -123,7 +123,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
          }
      });
    
- });  // -----------------------------ActivityNew-----------------------------
+  
  
  module.exports = (client, message) => {
     client.user.setActivity('U', { type: 'WATCHING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
@@ -132,7 +132,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
   
   };
  
-// -----------------------------ActivityEND-----------------------------
+ });// -----------------------------ActivityEND-----------------------------
 
   
 
