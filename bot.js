@@ -119,7 +119,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
 client.on('ready', () => {
 client.user.setActivity('bote! (help command)', { type: 'LISTENING' });
  
-     console.log(`HI ${client.user.username} trying to set Bot Presence and Bot Status!`);
+     console.log(`${client.user.username} trying to set Bot Presence and Bot Status!`);
 }) // -----------------------------ActivityEND-----------------------------
 
 
