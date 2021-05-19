@@ -136,7 +136,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
  client.user.setPresence({
         game: {
             name: 'Use f!help',
-            type: "LISTENING",
+            type: "PLAYING",
             url: "https://discordapp.com/"
         }
     });
@@ -144,7 +144,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
 });
 
 module.exports = (client, message) => {
-   client.user.setActivity('U', { type: 'LISTENING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
+   client.user.setActivity('U', { type: 'PLAYING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
         .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
         .catch(console.error);
  
