@@ -125,6 +125,8 @@ client.on("ready", () => {
         status: 'idle'
     })
 })
+
+    console.log(`Hi, ${client.user.username} trying to set Bot Presence and Bot Status!`);
    
   
 // -----------------------------ActivityEND-----------------------------
