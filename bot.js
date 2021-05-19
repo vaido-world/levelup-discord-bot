@@ -118,7 +118,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
 // Set the bot's presence (activity and status)
 client.user.setActivity('yourGameNameHere', { type: 'PLAYING' });
  
-     console.log(`${client.user.username} trying to set Bot Presence and Bot Status!`);
+     console.log(`HI ${client.user.username} trying to set Bot Presence and Bot Status!`);
 }) // -----------------------------ActivityEND-----------------------------
 
 
