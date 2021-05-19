@@ -115,40 +115,25 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
   
 // -----------------------------Activity-----------------------------
 //https://support.glitch.com/t/client-user-setactivity-doesnt-work/8625/5
-/////////  client.user.setPresence({
-/////////         game: {
-/////////             name: 'Use f!help',
-/////////             type: "Playing",
-/////////             url: "https://discordapp.com/"
-/////////         }
-/////////     });
-/////////   
-///////// });
-///////// 
-///////// module.exports = (client, message) => {
-/////////    client.user.setActivity('U', { type: 'WATCHING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
-/////////         .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
-/////////         .catch(console.error);
-/////////  
-/////////  };
-///////// 
-// -----------------------------ActivityEND-----------------------------
- client.user.setPresence({
-        game: {
-            name: 'Use f!help',
-            type: "Playing",
-            url: "https://discordapp.com/"
-        }
-    });
-  
-
-
-module.exports = (client, message) => {
-   client.user.setActivity('U', { type: 'PLAYING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
-        .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
-        .catch(console.error);
+  client.user.setPresence({
+         game: {
+             name: 'Use f!help',
+             type: "Playing",
+             url: "https://discordapp.com/"
+         }
+     });
+   
+ });
  
- };
+ module.exports = (client, message) => {
+    client.user.setActivity('U', { type: 'WATCHING' }) //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS
+         .then(presence => console.log(`Activity set to: WATCHING ${presence.activities[0].name}`))
+         .catch(console.error);
+  
+  };
+ 
+// -----------------------------ActivityEND-----------------------------
+
   
 }); // -----------------------------ActivityNew-----------------------------
   
