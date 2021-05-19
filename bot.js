@@ -136,7 +136,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
  client.user.setPresence({
         game: {
             name: 'Use f!help',
-            type: "PLAYING",
+            type: "Watching",
             url: "https://discordapp.com/"
         }
     });
