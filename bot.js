@@ -117,7 +117,7 @@ console.log('Bot: Hosting ' + `${client.users.size}` + ' users, in ' + `${client
 // -----------------------------Activity-----------------------------
 // Set the bot's presence (activity and status) ☕
 client.on('ready', () => {
-client.user.setActivity('botas! ✍', { type: 'LISTENING' });
+client.user.setActivity('botas! 👈', { type: 'LISTENING' });
  
      console.log(`${client.user.username} trying to set Bot Presence and Bot Status!`);
 }) // -----------------------------ActivityEND-----------------------------
