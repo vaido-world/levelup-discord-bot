@@ -91,7 +91,7 @@ const client = new Discord.Client();
         .addFields({ name: "CC0 Public Domain License", value: "You are free to use for any kind of purpose.", inline: true })
         .addFields({
             name: "Edit or customize this Bot",
-            value: "[Change or edit this bot.js](https://discord.com/developers/applications/804719647601459250/bot)"
+            value: "[Change or edit this bot.js](https://github.com/vaido-world/levelup-discord-bot/edit/main/bot.js)"
          })
       
         /*
