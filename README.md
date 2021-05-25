@@ -1,6 +1,9 @@
 # levelup-discord-bot
 It's written in JavaScript, hosted in GitHub and Executed by Heroku.  
-https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f  
+https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f 
+
+The tutorial has been purged by deactivating the account
+[https://web.archive.org/web/20201201191516/https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f]
 
 ## Discord.js version 11 has become obsolete
 https://github.com/vaido-world/levelup-discord-bot/blob/main/package.json#L19  
